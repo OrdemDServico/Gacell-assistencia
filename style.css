@@ -92,16 +92,16 @@ body {
 
 div > .video {
     background-color: rgb(13, 19, 19);
-    margin: 0px -18px 30px -18px;
-    padding: 20px;
+    margin: 0px -0px 20px -0px ;
+    padding: 10px;
     padding-bottom: 20%;
     position: relative;
 }
 
-div.video iframe {
+div.video video {
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 7%;
     width: 90%;
     height: 90%;
 }
