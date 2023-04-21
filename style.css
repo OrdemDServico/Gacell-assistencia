@@ -99,7 +99,7 @@ div > .video {
 }
 
 div.video video {
-    position: absolute;
+    position: relative;
     top: 7%;
     left: 7%;
     width: 90%;
