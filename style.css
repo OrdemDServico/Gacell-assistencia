@@ -81,18 +81,31 @@ body {
 
 .imgBlindagemResponsive {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgBlindagemResponsive>div {
+    flex: 1 1 200px;
 }
 
 .imgBlindagem {
-    width: 200px;
-    height: 200px;
-    padding: 14px;
+    width: 150px;
+    height: 150px;
+    padding: 17px;
 }
 
-div > .video {
+@media screen and (min-width: 480px) {
+    .imgBlindagem {
+        width: 200px;
+        height: 200px;
+        padding: 14px;
+    }
+
+}
+
+div>.video {
     background-color: rgb(13, 19, 19);
-    margin: 0px -0px 20px -0px ;
+    margin: 0px -0px 20px -0px;
     padding: 10px;
     padding-bottom: 7%;
     position: relative;
