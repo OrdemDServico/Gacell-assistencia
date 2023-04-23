@@ -73,9 +73,9 @@ body {
 }
 
 .p {
-    padding-top: 0%;
+    margin: 7px;
     text-align: center;
-    font-size: 80%;
+    font-size: 100%;
     color: #0202028e;
 }
 
@@ -120,7 +120,7 @@ div.video video {
 }
 
 .divReparo > div {
-    margin: 7px;
+    margin: 10px;
 }
 
 .divReparo {
