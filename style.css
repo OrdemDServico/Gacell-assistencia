@@ -119,10 +119,59 @@ div.video video {
     height: 90%;
 }
 
-.divReparo > div {
+.divReparo>div {
     margin: 10px;
 }
 
 .divReparo {
     display: flex;
 }
+
+.p1 {
+    margin: 7px;
+    font-size: 100%;
+    color: #0202028e;
+}
+
+.imgReparo {
+    box-shadow: 4px 4px 4px 4px rgba(50, 68, 74, 0.114);
+}
+
+.trocaDeTela {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-comp-container {
+    position: relative;
+    height: 200px;
+    margin-left: 16%;
+}
+
+.img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-comp-img img {
+    display: block;
+    vertical-align: middle;
+}
+
+.img-comp-slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    width: 40px;
+    height: 40px;
+    background-color: #2196F3;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+img-comp-container
