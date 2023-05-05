@@ -174,4 +174,65 @@ div.video video {
     border-radius: 50%;
 }
 
+.WhatsApp {
+    background-color: #45bb63;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.instagram {
+    background-color: #b635c7;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.e-mail {
+    background-color: #3182fa;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.contatos>a {
+    margin: 10px;
+}
+
+a:hover,
+a:active {
+    background-color: rgba(85, 81, 81, 0.925);
+}
+
+.localizacao {
+    background-color: #47576469;
+}
+
+@media screen and (min-width: 650px) {
+    .localizacao {
+        display: flex;
+        margin: 14px;
+        background-color: #47576469;
+    }
+}
+
+.localizacao>div {
+    margin: 14px;
+}
+
+iframe {
+    height: 300px;
+    width: auto;
+    margin-left: 37px;
+}
+
 img-comp-container
