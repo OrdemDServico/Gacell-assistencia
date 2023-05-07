@@ -239,6 +239,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    display: none;
 }
 
 td,
@@ -250,6 +251,17 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+input {
+    border-radius: 3px;
+    height: 40px;
+    width: 230px;
+}
+
+.login {
+    padding-left: 20%;
+
 }
 
 img-comp-container

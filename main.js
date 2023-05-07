@@ -83,3 +83,9 @@ function initComparisons() {
         }
     }
 }
+
+function tab() {
+    if inputlogin == login {
+        table
+    }
+}
