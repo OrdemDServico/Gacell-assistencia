@@ -84,8 +84,21 @@ function initComparisons() {
     }
 }
 
+
 function tab() {
-    if inputlogin == login {
-        table
+    var login = "gacell";
+    var senha = "assistencia8680";
+
+    var inputlogin = document.getElementById("entrada");
+    var inputsenha = document.getElementById("senhahtml");
+     
+    var table1 = document.getElementById("table");
+
+    if (inputlogin == login && inputsenha == senha) {
+        table1.style.display = "block"
+    } else {
+        alert("Login ou Senha errada!")
     }
 }
+
+console.log(valu);

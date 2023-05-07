@@ -138,12 +138,13 @@
 
     <div class="login">
         <h4><img src="icons/aplicativo-web.png"> Login</h4>
-        <input type="text" placeholder="Digite seu Login...">
+        <input id="entrada" type="text" placeholder="Digite seu Login...">
         <h4><img src="icons/senha.png"> Senha</h4>
-        <input type="password" placeholder="Digite sua Senha...">
+        <input id="senhahtml" type="password" placeholder="Digite sua Senha..."><br>
+        <button onclick="tab()">Entrar</button>
     </div>
-
-    <table>
+<p id="rev"></p>
+    <table id="table">
         <tr>
             <th>Modelo do celular</th>
             <th>Nome do cliente</th>
