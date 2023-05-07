@@ -84,21 +84,35 @@ function initComparisons() {
     }
 }
 
+const usuarios = [
+    {
+        login: '@gacell',
+        senha: 'assistencia8680'
+    }
+]
 
-function tab() {
-    var login = "gacell";
-    var senha = "assistencia8680";
+let botao = document.getElementById("btnlogar");
 
-    var inputlogin = document.getElementById("entrada");
-    var inputsenha = document.getElementById("senhahtml");
-     
-    var table1 = document.getElementById("table");
+botao.addEventListener('click', function tab() {
 
-    if (inputlogin == login && inputsenha == senha) {
-        table1.style.display = "block"
+    let inputlogin = document.getElementById("entrada").value
+    let inputsenha = document.getElementById("senhahtml").value
+    let validacao = false
+
+    for (let i in usuarios) {
+        if (inputlogin == usuarios[i].login && inputsenha ==
+            usuarios[i].senha) {
+            validacao = true
+            break
+        } else {
+            validacao = false
+        }
+    }
+    let table1 = document.getElementById("table");
+    if (validacao == true) {
+        table1.style.display = ("block")
     } else {
         alert("Login ou Senha errada!")
     }
-}
 
-console.log(valu);
+})
