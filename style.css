@@ -271,4 +271,17 @@ button {
     margin-top: 10px;
 }
 
+footer {
+    background-color: #020202;
+    text-align: center;
+    height: 50px;
+}
+
+.Pfooter {
+    color: #ddd;
+    padding-top: 14px;
+}
+.Pfooter > a {
+    color: #ddd;
+}
 img-comp-container
