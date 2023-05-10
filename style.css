@@ -240,6 +240,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     display: none;
+    margin-top: 27px;
 }
 
 td,
