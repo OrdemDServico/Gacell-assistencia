@@ -282,7 +282,12 @@ footer {
     color: #ddd;
     padding-top: 14px;
 }
-.Pfooter > a {
+
+.Pfooter>a {
     color: #ddd;
 }
-img-comp-container
+
+#fotos {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(50, 68, 74, 0.114);
+}
