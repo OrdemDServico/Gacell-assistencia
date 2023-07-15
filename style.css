@@ -291,3 +291,32 @@ footer {
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px rgba(50, 68, 74, 0.114);
 }
+
+.butaocupom {
+    height: 33px;
+    width: 300px;
+    background-color: #40f114d3;
+    text-align: center;
+    border-radius: 7px;
+    font-size:x-large ;
+    box-shadow: 4px 4px 4px lightblue;  
+    margin-left: 20px;
+}
+
+.butaocupom > a {
+    text-decoration: none;
+    color: #faf7f7;
+    background-color:  #49f51eb3;
+}
+
+.imgBlindagem2 {
+    height: 330px;
+    width: 330px;
+    margin-left: 21px;
+}
+.opacit {
+    opacity: 14%;
+}
+.afastar {
+    margin-left: 21px;
+}
