@@ -294,13 +294,13 @@ footer {
 
 .butaocupom {
     height: 33px;
-    width: 300px;
+    width: 150px;
     background-color: #40f114d3;
     text-align: center;
     border-radius: 7px;
     font-size:x-large ;
     box-shadow: 4px 4px 4px lightblue;  
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .butaocupom > a {
