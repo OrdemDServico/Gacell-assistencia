@@ -264,7 +264,7 @@ input {
     padding-left: 20%;
 }
 
-button {
+.button {
     border-radius: 3px;
     width: 230px;
     height: 30px;
@@ -343,6 +343,10 @@ footer {
     left: 50%;
     transform: translate(-50%);
     border-radius: 15px;
+    display: none;
+}
+.cookies-msg.mostrar{
+    display: block;
 }
 
 .cookies-msg .cookies-txt{
@@ -353,4 +357,17 @@ footer {
 }
 .cookies-msg .cookies-btn{
     margin-left: 30px;
+}
+
+.cookies-msg .cookies-btn button{
+    background-color: #020202;
+    color: #ddd;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: .2s;
+}
+.cookies-msg .cookies-btn button:hover{
+    transform: scale(0.9);
 }
