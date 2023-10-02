@@ -135,6 +135,12 @@ div.video video {
 
 .imgReparo {
     box-shadow: 4px 4px 4px 4px rgba(50, 68, 74, 0.114);
+    border-radius: 3px;
+}
+
+.DivServicos {
+    background-color: #05080e10
+    ;
 }
 
 .trocaDeTela {
@@ -316,14 +322,8 @@ footer {
     width: auto;
     background-image: url('GacellAssistenciaTecnica\ \(2\).jpeg');
     background-size: cover;
-    text-align: center;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
-}
-.imFixa > h4 {
-    padding: 40px;
-    color: #ddd;
-    text-shadow: 1px 1px 0px black ;
 }
 .cookies-msg {
     width: 80%;
