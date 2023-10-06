@@ -2,6 +2,10 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="description" content="Empresa especializada e autorizada na area de concerto de celular, Iphone, Samsung, Motorola, Redmi e Xiaomi">
+    <meta name="author" content="Gilmar Sampaio e Luciano Silva">
+    <meta name="Keywords" content="Assistencia tecnica em salvador">
+    <meta name="robots" content="index, follow">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8041727051158773"
         crossorigin="anonymous"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8041727051158773"
@@ -38,31 +42,49 @@
 
     <img class="CapaInicio" src="imagens/capa.png" alt="assistencia-Tecnica">
 
-    <h2 style="text-align: center;">Somos afiliados da Amazon <br> aqui postamos produtos com melhor valor!</h2>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09T4YK6QK&asins=B09T4YK6QK&linkId=4a479b16d2611e6751416db0b8cabfc7&show_border=true&link_opens_in_new_window=true">
-    </iframe>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08MB34P9D&asins=B08MB34P9D&linkId=d7f8cd5484e9d018083536df13cc7e17&show_border=true&link_opens_in_new_window=true">
-    </iframe>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0BDJ3GGXF&asins=B0BDJ3GGXF&linkId=977b8b573bbc592408385f540c627063&show_border=true&link_opens_in_new_window=true">
-    </iframe>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09B96NJ4X&asins=B09B96NJ4X&linkId=d01241c669492648bd59fedfec64ead8&show_border=true&link_opens_in_new_window=true">
-    </iframe>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B075BKXSCQ&asins=B075BKXSCQ&linkId=fd54016ce7dde302c2b498914312428e&show_border=true&link_opens_in_new_window=true">
-    </iframe>
-    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
-        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
-        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0B99L6FXQ&asins=B0B99L6FXQ&linkId=d143b469ac29402c82e3823d68d37ed5&show_border=true&link_opens_in_new_window=true">
-    </iframe>
+   <h2 class="trocaDeTela">Status dos clientes</h2>
+    <div class="login">
+        <h4><img src="icons/aplicativo-web.png"> Login</h4>
+        <input id="entrada" type="text" placeholder="Digite seu Login...">
+        <h4><img src="icons/senha.png"> Senha</h4>
+        <input id="senhahtml" type="password" placeholder="Digite sua Senha..."><br>
+        <button class="button" id="btnlogar" onclick="tab()">Entrar</button>
+    </div>
+
+    <table id="table">
+        <tr>
+            <th>Modelo do celular</th>
+            <th>Nome do cliente</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Samsung galaxy A10</td>
+            <td>Yara</td>
+            <td>Pronto <img src="icons/marca-de-verificacao.png" alt="Tela trincada"></td>
+        </tr>
+        <tr>
+            <td>LG k50s</td>
+            <td>Dudu</td>
+            <td>Andamento <img src="icons/letra-x.png" alt="Tela trincada"></td>
+        </tr>
+        <tr>
+            <td>A01</td>
+            <td>Claudio Almeida</td>
+            <td>Andamento <img src="icons/letra-x.png" alt="Pelicula"></td>
+        </tr>
+
+        <tr>
+            <td>Samsung galaxy A01</td>
+            <td>Talita Costa</td>
+            <td>Troca de tela <img src="icons/letra-x.png" alt="Pelicula"></td>
+        </tr>
+
+        <tr>
+            <td>Samsung galaxy A03</td>
+            <td>Raimundo</td>
+            <td>Troca de tela <img src="icons/letra-x.png" alt="Pelicula"></td>
+        </tr>
+    </table>
 
 
     <div class="DivServicos">
@@ -181,49 +203,33 @@
     <div class="imFixa">
     </div>
 
-    <h2 class="trocaDeTela">Status dos clientes</h2>
-    <div class="login">
-        <h4><img src="icons/aplicativo-web.png"> Login</h4>
-        <input id="entrada" type="text" placeholder="Digite seu Login...">
-        <h4><img src="icons/senha.png"> Senha</h4>
-        <input id="senhahtml" type="password" placeholder="Digite sua Senha..."><br>
-        <button class="button" id="btnlogar" onclick="tab()">Entrar</button>
-    </div>
+    
 
-    <table id="table">
-        <tr>
-            <th>Modelo do celular</th>
-            <th>Nome do cliente</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>Samsung galaxy A10</td>
-            <td>Yara</td>
-            <td>Pronto <img src="icons/marca-de-verificacao.png" alt="Tela trincada"></td>
-        </tr>
-        <tr>
-            <td>LG k50s</td>
-            <td>Dudu</td>
-            <td>Andamento <img src="icons/letra-x.png" alt="Tela trincada"></td>
-        </tr>
-        <tr>
-            <td>A01</td>
-            <td>Claudio Almeida</td>
-            <td>Andamento <img src="icons/letra-x.png" alt="Pelicula"></td>
-        </tr>
-
-        <tr>
-            <td>Samsung galaxy A01</td>
-            <td>Talita Costa</td>
-            <td>Troca de tela <img src="icons/letra-x.png" alt="Pelicula"></td>
-        </tr>
-
-        <tr>
-            <td>Samsung galaxy A03</td>
-            <td>Raimundo</td>
-            <td>Troca de tela <img src="icons/letra-x.png" alt="Pelicula"></td>
-        </tr>
-    </table>
+     <h2 style="text-align: center;">Somos afiliados da Amazon <br> aqui postamos produtos com melhor valor!</h2>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09T4YK6QK&asins=B09T4YK6QK&linkId=4a479b16d2611e6751416db0b8cabfc7&show_border=true&link_opens_in_new_window=true">
+    </iframe>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08MB34P9D&asins=B08MB34P9D&linkId=d7f8cd5484e9d018083536df13cc7e17&show_border=true&link_opens_in_new_window=true">
+    </iframe>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0BDJ3GGXF&asins=B0BDJ3GGXF&linkId=977b8b573bbc592408385f540c627063&show_border=true&link_opens_in_new_window=true">
+    </iframe>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09B96NJ4X&asins=B09B96NJ4X&linkId=d01241c669492648bd59fedfec64ead8&show_border=true&link_opens_in_new_window=true">
+    </iframe>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B075BKXSCQ&asins=B075BKXSCQ&linkId=fd54016ce7dde302c2b498914312428e&show_border=true&link_opens_in_new_window=true">
+    </iframe>
+    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"
+        style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+        src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=969925-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0B99L6FXQ&asins=B0B99L6FXQ&linkId=d143b469ac29402c82e3823d68d37ed5&show_border=true&link_opens_in_new_window=true">
+    </iframe>
 
     <h2 class="trocaDeTela">Nossa localização</h2>
     <div class="localizacao">
